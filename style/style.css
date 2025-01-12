@@ -165,3 +165,24 @@ main {
     padding-left: 30px;
 }
 
+/* -------------------- */
+.setelite-image{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+.recent-nbox{
+    display: flex;
+}
+.recenta-ll{
+    margin-left: 32px;
+}
+.recent-nbox{
+    padding: 48px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(240, 243, 254);
+    margin-top: 32px;
+}
+
+
