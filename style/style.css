@@ -11,7 +11,12 @@ main {
 }
 
 .color {
-    color: rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.8);
+    
+}
+.psize{
+    font-size: 16px;
+    text-align: left;
 }
 
 /* banner */
@@ -74,9 +79,89 @@ main {
     text-align: left;
 }
 .skill-description{
-    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
 }
+
+/* ----------- */
+
+.vision-containar{
+    margin-top: 80px;
+}
+.vision-box{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.box1{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);}
+.box2{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);}
+.box3{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);}
+
+.many-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 0;
+}
+.b1{
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    border-style: none;
+    position: relative;    
+}
+.b2{
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(9, 161, 92);
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    border-style: none;
+    position: relative;    
+}
+.b3{
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(9, 161, 92);
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    border-style: none;
+    position: relative;    
+}
+.vision-description{
+    position: static;
+    width: 346.67px;
+    height: 72px;
+    margin: 12px 0px;
+}
+/* -------------- */
+.news-t{
+    margin-top: 32px;
+    background: rgb(255, 255, 255);
+   
+}
+.bg{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
