@@ -14,9 +14,17 @@ main {
     color: rgba(14, 14, 14, 0.8);
     
 }
-.psize{
+.font-size{
     font-size: 16px;
+
+}
+.psize{
     text-align: left;
+    font-size: 16px;
+
+}
+.text-center{
+    text-align: center;
 }
 
 /* banner */
@@ -184,5 +192,33 @@ main {
     background: rgb(240, 243, 254);
     margin-top: 32px;
 }
+/* ----------- */
+.d-title{
+    max-width: 1104px;;
+}
 
+.vc-button{
+    position: static;
+    width: 1071px;
+    height: 128px;
+    display: flex;
+    margin: 0 auto;
+
+}
+.inter{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+    width: 240px;
+    height: 128px;
+    
+}
 
