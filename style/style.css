@@ -148,7 +148,7 @@ main {
 .b3{
     border-radius: 8px;
     padding: 17px 34px 17px 34px;
-    background: rgb(9, 161, 92);
+    background: rgb(255, 194, 57);
     color: white;
     font-size: 18px;
     font-weight: 600px;
@@ -167,10 +167,11 @@ main {
     background: rgb(255, 255, 255);
    
 }
+
 .bg{
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
-    padding-left: 30px;
+    border-left: 20px;
 }
 
 /* -------------------- */
@@ -229,6 +230,12 @@ main {
     color: black;
   }
 
+.inter-c:hover {
+    background-color: rgb(242, 25, 32);
+    color: white;
+  }
+
+
 
 
 .input{
@@ -249,8 +256,52 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: 32px;
 
 }
+
+
+/* --------------- */
+
+.newsletter{
+    height: 395px;
+    background-color: #C6E4D6;
+    border-radius: 26px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 100px;
+    margin: 80px 0;
+}
+.manager{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.input2{
+    width: 600px;
+    height: 55px;
+    margin-top: 32px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0px 6px 50px 0px rgb(247, 246, 246);
+}
+.done2{
+    margin-top: 32px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 34px 17px 34px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    font-size: 18px;
+    border-style: none;
+
+}
+
 
